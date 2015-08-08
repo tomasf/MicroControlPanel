@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C944698A1B7535FF008820F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C94469891B7535FF008820F4 /* main.m */; };
+		C944699C1B7537D3008820F4 /* TFPRController.m in Sources */ = {isa = PBXBuildFile; fileRef = C944699B1B7537D3008820F4 /* TFPRController.m */; };
+		C94469A31B7640F5008820F4 /* ORSSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = C944699E1B7640F5008820F4 /* ORSSerialPort.m */; };
+		C94469A41B7640F5008820F4 /* ORSSerialPortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C94469A01B7640F5008820F4 /* ORSSerialPortManager.m */; };
+		C94469A51B7640F5008820F4 /* ORSSerialRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C94469A21B7640F5008820F4 /* ORSSerialRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C94469841B7535FF008820F4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C94469861B7535FF008820F4 /* MicroRemote */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MicroRemote; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94469891B7535FF008820F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C944699A1B7537D3008820F4 /* TFPRController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFPRController.h; sourceTree = "<group>"; };
+		C944699B1B7537D3008820F4 /* TFPRController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFPRController.m; sourceTree = "<group>"; };
+		C944699D1B7640F5008820F4 /* ORSSerialPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPort.h; sourceTree = "<group>"; };
+		C944699E1B7640F5008820F4 /* ORSSerialPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPort.m; sourceTree = "<group>"; };
+		C944699F1B7640F5008820F4 /* ORSSerialPortManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPortManager.h; sourceTree = "<group>"; };
+		C94469A01B7640F5008820F4 /* ORSSerialPortManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPortManager.m; sourceTree = "<group>"; };
+		C94469A11B7640F5008820F4 /* ORSSerialRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialRequest.h; sourceTree = "<group>"; };
+		C94469A21B7640F5008820F4 /* ORSSerialRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialRequest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C94469831B7535FF008820F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C944697D1B7535FF008820F4 = {
+			isa = PBXGroup;
+			children = (
+				C94469881B7535FF008820F4 /* MicroRemote */,
+				C94469871B7535FF008820F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C94469871B7535FF008820F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C94469861B7535FF008820F4 /* MicroRemote */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C94469881B7535FF008820F4 /* MicroRemote */ = {
+			isa = PBXGroup;
+			children = (
+				C94469891B7535FF008820F4 /* main.m */,
+				C944699A1B7537D3008820F4 /* TFPRController.h */,
+				C944699B1B7537D3008820F4 /* TFPRController.m */,
+				C94469991B75379B008820F4 /* ORSSerialPort */,
+			);
+			path = MicroRemote;
+			sourceTree = "<group>";
+		};
+		C94469991B75379B008820F4 /* ORSSerialPort */ = {
+			isa = PBXGroup;
+			children = (
+				C944699D1B7640F5008820F4 /* ORSSerialPort.h */,
+				C944699E1B7640F5008820F4 /* ORSSerialPort.m */,
+				C944699F1B7640F5008820F4 /* ORSSerialPortManager.h */,
+				C94469A01B7640F5008820F4 /* ORSSerialPortManager.m */,
+				C94469A11B7640F5008820F4 /* ORSSerialRequest.h */,
+				C94469A21B7640F5008820F4 /* ORSSerialRequest.m */,
+			);
+			name = ORSSerialPort;
+			path = MicroRemote;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C94469851B7535FF008820F4 /* MicroRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C944698D1B7535FF008820F4 /* Build configuration list for PBXNativeTarget "MicroRemote" */;
+			buildPhases = (
+				C94469821B7535FF008820F4 /* Sources */,
+				C94469831B7535FF008820F4 /* Frameworks */,
+				C94469841B7535FF008820F4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MicroRemote;
+			productName = MicroRemote;
+			productReference = C94469861B7535FF008820F4 /* MicroRemote */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C944697E1B7535FF008820F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Tomas Franzén";
+				TargetAttributes = {
+					C94469851B7535FF008820F4 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = C94469811B7535FF008820F4 /* Build configuration list for PBXProject "MicroRemote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C944697D1B7535FF008820F4;
+			productRefGroup = C94469871B7535FF008820F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C94469851B7535FF008820F4 /* MicroRemote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C94469821B7535FF008820F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94469A31B7640F5008820F4 /* ORSSerialPort.m in Sources */,
+				C94469A41B7640F5008820F4 /* ORSSerialPortManager.m in Sources */,
+				C944698A1B7535FF008820F4 /* main.m in Sources */,
+				C944699C1B7537D3008820F4 /* TFPRController.m in Sources */,
+				C94469A51B7640F5008820F4 /* ORSSerialRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C944698B1B7535FF008820F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C944698C1B7535FF008820F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C944698E1B7535FF008820F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C944698F1B7535FF008820F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C94469811B7535FF008820F4 /* Build configuration list for PBXProject "MicroRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C944698B1B7535FF008820F4 /* Debug */,
+				C944698C1B7535FF008820F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C944698D1B7535FF008820F4 /* Build configuration list for PBXNativeTarget "MicroRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C944698E1B7535FF008820F4 /* Debug */,
+				C944698F1B7535FF008820F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C944697E1B7535FF008820F4 /* Project object */;
+}
